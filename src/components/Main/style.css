@@ -1,0 +1,34 @@
+.main-container {
+  position: relative;
+  background-image: url("../../img/backgground.jpg");
+  min-height: 680px;
+}
+.main-wrapper {
+  position: relative;
+  z-index: 5;
+  padding: 50px 20px 60px;
+  margin: 0 auto;
+}
+.main-shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+
+.main-title {
+  text-shadow: 0 1px 0 #000000;
+  color: #ffffff;
+  font-family: "Exo 2.0 Thin", arial;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0 0 23px 0;
+  text-align: center;
+}
