@@ -1,7 +1,7 @@
 .main-container {
   position: relative;
   background-image: url("../../img/backgground.jpg");
-  min-height: 680px;
+  min-height: 100vh;
 }
 .main-wrapper {
   position: relative;
